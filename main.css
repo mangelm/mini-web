@@ -1,0 +1,128 @@
+/* all body */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/**********************
+    Header Section  
+***********************/
+/* all header */
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecera{
+    color: rgb(195, 234, 255);
+    background-image: url("imagenfondo.jpg");
+}
+
+/* Font family : Google Font */
+h1{
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+} 
+
+svg {
+   position: relative;
+   left: 370px;
+}
+
+/**********************
+        Buttons 
+***********************/
+
+.botones{
+    border-radius: 30%;
+    border-color: green;
+    background-color: aquamarine;
+}
+
+#boton-grupo{
+    text-align: right;
+}
+
+/* link properties */
+a:link {
+    text-decoration:none;
+    color: green;
+}
+
+a:visited {
+    text-decoration:none;
+    color:greenyellow;
+}
+
+a:hover {
+    text-decoration:none;
+    color:white;
+}
+
+/**********************
+    Form Section
+***********************/
+
+#formulario{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.campos{
+    padding: 5px;
+    
+}
+
+.formbot{
+    border-radius: 30%;
+    color: rgb(207, 210, 213);
+    background-color: rgb(71, 82, 94); 
+    opacity: 50%;
+}
+
+/**********************
+    Articles Section
+***********************/
+
+#articulos{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulos{
+    color: rgb(73, 84, 96);
+    text-align: center;
+}
+
+/* Applies to the first letter of the texts of the articles */
+.titulos::first-letter{
+    color:brown;
+}
+
+.textos{
+    text-align: justify;
+}
+
+/* auto center images */
+.imagenes{
+    display:block;
+    margin:auto;
+}
+
+/**********************
+    Footer Section
+***********************/
+
+#pies{
+    background-image: url("imagenfondo.jpg");
+    color: rgb(195, 234, 255);
+    text-align: center;
+}
+
+#info{
+    display: inline-block;
+    width: auto;
+    margin: auto;
+}

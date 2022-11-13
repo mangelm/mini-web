@@ -1,0 +1,88 @@
+/*************************************
+    Display Flex y Unidades relativas
+**************************************/
+.flex-container{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0px;
+}
+
+.flex-container > div{
+  width: auto;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 15px;
+}
+
+/**********************
+    Media Querries
+***********************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #articulos{width: auto;}
+    #todo_art{width: auto;}
+    .articulo{width: auto;}
+    .titulos{width: auto;}
+    .textos{width: auto;}
+    .imagenes{width: auto;}
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #articulos{width: auto;}
+    #todo_art{width: auto;}
+    .articulo{width: auto;}
+    .titulos{width: auto;}
+    .textos{width: auto;}
+    .imagenes{width: auto;}
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #articulos{width: auto;}
+    #todo_art{width: auto;}
+    .articulo{width: auto;}
+    .titulos{width: auto;}
+    .textos{width: auto;}
+    .imagenes{width: auto;}
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #articulos{width: auto;}
+    #todo_art{width: auto;}
+    .articulo{width: auto;}
+    .titulos{width: auto;}
+    .textos{width: auto;}
+    .imagenes{width: auto;}
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #articulos{width: auto;}
+    #todo_art{width: auto;}
+    .articulo{width: auto;}
+    .titulos{width: auto;}
+    .textos{width: auto;}
+    .imagenes{width: auto;}
+}
+
+/**********************
+    Articles Section
+***********************/
+.titulos{
+    color: rgb(73, 84, 96);
+    text-align: center;
+}
+
+/* Applies to the first letter of the texts of the articles */
+.titulos::first-letter{
+    color:brown;
+}
+
+.imagenes{
+    display:block;
+    margin:auto;
+}
